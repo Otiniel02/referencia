@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthenticationComponent } from './authentication.component';
+<<<<<<< HEAD
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 
@@ -10,6 +11,10 @@ const routes: Routes = [
   { path: 'register', component: SignUpComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' }
 ];
+=======
+
+const routes: Routes = [{ path: '', component: AuthenticationComponent }];
+>>>>>>> otiniel-branch
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

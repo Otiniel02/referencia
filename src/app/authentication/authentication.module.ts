@@ -8,7 +8,10 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { EmailVerificationComponent } from './email-verification/email-verification.component';
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> otiniel-branch
 @NgModule({
   declarations: [
     AuthenticationComponent,
@@ -18,7 +21,11 @@ import { EmailVerificationComponent } from './email-verification/email-verificat
   ],
   imports: [
     CommonModule,
+<<<<<<< HEAD
     AuthenticationRoutingModule,
+=======
+    AuthenticationRoutingModule
+>>>>>>> otiniel-branch
   ]
 })
 export class AuthenticationModule { }
